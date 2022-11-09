@@ -1,0 +1,14 @@
+html{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+    /*cursor: url('../cursor.cur'),auto;*/
+}
+
+@font-face {
+  font-family: 'Conv_Panton-BlackCaps';
+  src: url('../../fonts/Panton-BlackCaps.eot');
+  src: local('☺'), url('../../fonts/Panton-BlackCaps.woff') format('woff'), url('../../fonts/Panton-BlackCaps.ttf') format('truetype'), url('fonts/Panton-BlackCaps.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

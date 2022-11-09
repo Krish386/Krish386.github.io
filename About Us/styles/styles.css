@@ -1,0 +1,222 @@
+/*Universal Classes*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #002a14;
+}
+
+/*Custom scrollbar*/
+
+body::-webkit-scrollbar {
+        width: 0.5vw;
+}
+
+body::-webkit-scrollbar-track {
+        background: #00290d;
+}
+
+body::-webkit-scrollbar-thumb {
+        background: #007a27;
+}
+
+/*Other Classes*/
+/* .main {
+        display: grid;
+        place-items: center;
+        position: relative;
+} */
+
+
+.body {
+  width: 102%;
+  margin: auto;
+  height: 40vw;
+  margin-bottom: 10vw;
+  margin-top: -0.3vw;
+  margin-left: -1vw;
+  overflow: hidden;
+  text-align: center;
+  background-color: #006101;
+  animation: fadeInUp 1s;
+  z-index: 99;
+  box-shadow: black 0 7px 35px 0;
+}
+
+/*Header*/
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        margin-top: -2.3vw;
+        width: 100%;
+        top: 0;
+        transition: background 0.5s;
+        z-index: 150;
+}
+
+.header .logo img {
+        height: 5vw;
+        transition: height 0.5s;
+        padding-top: 5vw;
+        margin-top: -2.7vw;
+}
+
+.header ul {
+        width: 10vw;
+        justify-content: space-around;
+        list-style: none;
+        display: flex;
+        align-items: center;
+}
+
+.header ul li a {
+        text-decoration: none;
+        color: #001a02;
+}
+
+.footer {
+        width: 101%;
+        margin: none;
+        height: 10vw;
+        margin-bottom: -1vw;
+        color: white;
+        display: grid;
+        place-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -99;
+} 
+
+@keyframes fadeInUp {
+        0% {
+                opacity: 0;
+        }
+        100% {
+                opacity: 1;
+        }
+}
+
+.credits {
+        font-size: 2vw;
+        margin-top: -1vw;
+        opacity: 0;
+        font-family: Roboto, Raleway;
+        font-weight: 700;
+        animation: fadeInUp 0.5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+}
+
+.members {
+        font-size: 0.9vw;
+        margin-top: -3.5vw;
+        text-align: center;
+        font-family: Roboto, Raleway;
+        font-weight: 300;
+        opacity: 0;
+        animation: fadeInUp 0.5s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+}
+
+.paragraph {
+        font-family: Roboto, Raleway;
+        color: white;
+        margin-left: 5vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+        width: 90%;
+        padding-top: 2vw;
+        /* animation: fadeInUp 1s; */
+        opacity: 0;
+        transition: all 1s;
+        transform: translateY(20%)
+}
+/* 
+@keyframes fadeInUp {
+        0% {
+                opacity: 0%;
+                transform: translateY(30%);
+        }
+        100% {
+                opacity: 0%;
+                transform: translateY(0%);
+        }
+} */
+
+/*Counter*/
+
+.wrapper {
+  position: relative;
+  width: 80vw;
+  top: 5%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top:4vw;
+  opacity: 0;
+  transition: all 1s;
+  transform: translateY(20%);
+}
+
+.show {
+        opacity: 1;
+        transform: translateY(0%);
+}
+
+.container {
+  width: 16vw;
+  height: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+  border-radius: 1vw;
+  border-bottom: 1vw solid #00de04;
+  background-color: rgba(255, 255, 255,0.1);
+}
+
+i {
+  color: #00de04;
+  font-size: 5vw;
+  text-align: center;
+}
+
+span.num {
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  font-size: 3vmax;
+  font-family: Roboto, Arial;
+}
+
+span.text {
+  color: white;
+  font-size: 1.3vw;
+  text-align: center;
+  pad: 0.7vmax 0;
+  font-weight: bold;
+  line-height: 0;
+  font-family: Roboto, Arial;
+}
+
+/*Leaf looking css*/
+#eyes, #eyes img {
+    position: absolute;
+    width: 1vw;
+}
+
+#anchor {
+    width: 10vw;
+    margin: none;
+    margin-left: 50vw;
+}
