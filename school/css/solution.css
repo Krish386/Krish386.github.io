@@ -99,15 +99,15 @@
 }
 
 .slider{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   z-index:100
 }
 
 .slides{
-  width: 500%;
-  height: 500px;
+  width: 500vw;
+  height: 500vh;
   display: flex;
 }
 
@@ -129,9 +129,9 @@
 
 .navigation-manual{
   position:absolute;
-  width: 800px;
+  width: 60vw;
   margin-top: 90vh;
-  margin-left: 17%;
+  margin-left: 17vw;
   display: flex;
   justify-content: center;
 }
@@ -170,9 +170,9 @@
 
 .navigation-auto{
   position:absolute;
-  width: 800px;
+  width: 60vw;
   margin-top: 90vh;
-  margin-left: 17%;
+  margin-left: 17vw;
   display: flex;
   justify-content: center;
 }
