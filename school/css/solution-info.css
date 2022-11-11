@@ -46,7 +46,7 @@
 #video-container{
   position: relative;
   background-color: #300338;
-  height: 130vh;
+  height: 140vh;
   z-index: 1000;
 }
 
