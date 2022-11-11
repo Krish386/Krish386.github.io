@@ -160,42 +160,12 @@
   font-weight: 800;
   background-color: black;
   border-radius: 1vh;
-}
-
-.close-button{
-  text-decoration: none;
-  font-size: 5vh;
-  font-family: 'panton-black-caps', sans-serif;
-  font-weight: 800;
-  color: red;
-  padding: 5vw;
-  transition: ease-out 0.5s;
-  position: relative;
-  top: -13vh;
-  left: 43vw;
   cursor: pointer;
-}
-
-.video-url-content{
-  top: 5vh;
-  left: 16vw;
-  position: absolute;
-  color: black;
-  font-family: 'panton-black-caps', sans-serif;
-  font-weight: 800;
-  font-size: 3vw;
-  text-transform: uppercase;
-}
-
-.video{
-  position: relative;
-  top: 3vh;
-  right: 1vw;
 }
 
 .card{
   position: absolute;
-  top: 50vh;
+  top: 44vh;
   left:50vw;
   padding:3vw;
   z-index: 100;
@@ -219,23 +189,68 @@
   border:0.1vw solid rgba(0, 0, 0, 0.1);
 }
 
+footer{
+  background: #27022d;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  height: 30vh;
+}
+
+.footer-heading{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 3vw;
+  padding-top: 1.5vw;
+  font-family: 'panton-black-caps', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
 .air-pollution#blur.active{
   filter: blur(20px);
   pointer-events: none;
   user-select: none;
 } 
 
+
+.close-button{
+  text-decoration: none;
+  font-size: 5vh;
+  font-family: 'panton-black-caps', sans-serif;
+  font-weight: 800;
+  color: red;
+  padding: 5vw;
+  transition: ease-out 0.5s;
+  position: relative;
+  top: -8vh;
+  left: 32vw;
+  cursor: pointer;
+}
+
+.popup-heading{
+  top: -3vw;
+  font-family: 'panton-black-caps' , sans-serif;
+  font-size: 2vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.popup-content{
+  font-family: 'panton-black-caps' , sans-serif;
+  position: relative;
+}
+
 #popup{
+  visibility: hidden;
   position: fixed;
-  top:40vw;
-  left:50vw;
   transform:translate(-50%,-50%);
-  padding:90px 9vw;
-  box-shadow: 0 5px 3px rgba(0,0,0,.30);
+  top: 40vw;
+  left: 50vw;
+  padding:45px 9vw;
   background-color: #fff;
   color: black;
-  visibility: hidden;
-  opacity: 0;
   transition: 0.5s;
   z-index: 5;
 }
@@ -245,7 +260,12 @@
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
-  
 }
+
+.plastic-pollution#blur.active{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+} 
 
 

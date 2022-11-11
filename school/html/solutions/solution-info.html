@@ -7,55 +7,51 @@
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <section id="air-pollution">
-        <div id="popup">
-        <a class="close-button" onclick="toogle()">&times;</a>
-        <h3 class="popup-heading">Terrarium Video</h3>
-        </div>
-
-      <div class="air-pollution" id="blur">
-      <h1 class="headings">Air Pollution</h1>
-      <img class="images2" src="../../images/air/air-solution-content.jpeg">
-    <div class="card2">
-      <h1 class="info-heading">Planting Trees</h1>
-      <p class="info">
-        We encourage all children to plant as many trees as possible, not just in school, but at home as well. Through activities such as providing each child with a plant, we imprint the values of nurturing a plant, through which they will not only improve the air quality in their homes, but will also learn how they can plant and nurture a plant on their own.</p>
-      <a class="info-button" href="../problems/problem-info.html#air-pollution">Problems</a>
-      <a class="learn-more-button" onclick="toogle()">Learn More</a>
-      </div>
-    </div>
-  </div>
-  </section>
   <section id="plastic-pollution">
-    <div id="popup1">
-      <a class="close-button" onclick="toogle1()">&times;</a>
-      <h3 class="popup-heading">Terrarium Video</h3>
+    <div id="popup">
+      <a class="close-button" onclick="toogle()">&times;</a>
+      <h3 class="popup-heading">Reducing and Reusing Plastics </h3>
+      <p class="popup-content">Frequent best-out-of-waste contests are conducted in across all classes to encourage the students to use the non-biodegradable waste in a productive and creative way. Their creations are also displayed to spread the message further. Students are asked to refrain from bringing plastic bottles, lunch boxes and instead bring metal bottles and lunch boxes to reduce the use of plastic within school premises.</p>
+
       </div>
-      <div class="plastic-pollution" id="blur1">
-    <h1 class="headings">Plastic Pollution</h1>
+      <div class="plastic-pollution" id="blur">
+    <h1 class="headings">Initiative to reduce Plastic Pollution</h1>
     <img class="images" src="../../images/plastic/plastic-solution-content.JPG">
   <div class="card">
-    <h1 class="info-heading">Reducing Plastic use</h1>
-    <p class="info">Students have been asked to not bring plastic bottles, lunch boxes, and instead bring metal bottles and lunch boxes to reduce the use of plastic in the school.</p>
+    <h1 class="info-heading">Eco Bricks</h1>
+    <p class="info">An eco-brick is a building block made entirely from un-recyclable plastic it's created by filling a plastic bottle with clean, dry plastic until it's packed tightly and can be used as a building block. It is one the most effective way of recycling plastic waste. To promote this idea, students of all grades were asked to prepare eco-bricks and deposit it at the school with their respective Science teachers. These were then collected to build varied structures around the school.</p>
     <a class="info-button" href="../problems/problem-info.html#plastic-pollution">Problems</a>
-    <a class="learn-more-button" onclick="toogle1()">Learn More</a>
+    <a class="learn-more-button" onclick="toogle()">Learn More</a>
   </div>
   </div>
 </section>
+<section id="air-pollution">
+<div class="air-pollution" id="blur">
+<h1 class="headings">Initiative to reduce Air Pollution</h1>
+<img class="images2" src="../../images/air/air-solution-content.jpeg">
+<div class="card2">
+<h1 class="info-heading">Planting Trees</h1>
+<p class="info">
+  The concept of Green -corner was initiated. A spot was chosen near the school basketball court to be decorated with a variety of plants and a wall was dedicated to grow potted plants.  Each class was provided with a plant to be nurtured. This ensured that students learn to nurture a plant as well as breathe fresh air.</p>
+<a class="info-button" href="../problems/problem-info.html#air-pollution">Problems</a>
+</div>
+</div>
+</div>
+</section>
 <section id="water-pollution">
-  <h1 class="headings">Water Pollution</h1>
+  <h1 class="headings">Initiative to reduce Water Pollution</h1>
   <img class="images2" src="../../images/water/water-solution-content.jpg">
 <div class="card2">
   <h1 class="info-heading">Beach Cleaning</h1>
   <p class="info">
-    Some students were taken to the beach to collect all the trash that was lying around, thereby promoting cleanliness, and possibly encouraging them to do the same wherever they go.</p>
+    Waste and litter thrown around near water bodies are one of the major causes of water pollution. A school team consisting of students and teachers visited a nearby beach and did a cleaning drive by collecting the trash lying around on the beach. This was an initiative to reduce water pollution as well as a way of giving back to the society by indulging in volunteer service. </p>
   <a class="info-button" href="../problems/problem-info.html#water-pollution">Problems</a>
 </div>
 </section>
 <section id="video-container">
   <div class="video-card">
     <h1 class="video-heading">Terrarium</h1>
-    <p class="video-p">A terrarium (plural: terraria or terrariums) is usually a sealable glass container containing soil and plants that can be opened for maintenance to access the plants inside; however, terraria can also be open to the atmosphere. Terraria are often kept as ornamental items. <span><a class="video-link" href="#video">Here Is A Video Link To It 	&#8594</a></span></p>
+    <p class="video-p">As part of the Eco – Club initiative saplings were planted around the school. The students enjoyed learning about the steps to plant a tree and the nourishment to be provided for it to grow well. <span><a class="video-link" href="#video">Here Is A Video Link To It 	&#8594</a></span></p>
   </div>
   <iframe id="video" class="video-format" width="100%" height="100%" src="https://www.youtube.com/embed/bxG77kTTeLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
@@ -73,19 +69,11 @@
        ScrollReveal().reveal('.card2', { delay: 100 , origin:'left'});
        ScrollReveal().reveal('.video-card', { delay: 100 , origin:'bottom'});
 
-       function toogle(){
+        function toogle(){
       const blur = document.getElementById('blur')
         blur.classList.toggle('active')
 
         const popup = document.getElementById('popup')
-        popup.classList.toggle('active')
-        }
-
-        function toogle1(){
-      const blur = document.getElementById('blur1')
-        blur.classList.toggle('active')
-
-        const popup = document.getElementById('popup1')
         popup.classList.toggle('active')
         }
 

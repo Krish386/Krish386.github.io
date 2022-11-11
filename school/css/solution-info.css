@@ -151,7 +151,7 @@
 
 .card{
   position: absolute;
-  top: 50vh;
+  top: 44vh;
   left:50vw;
   padding:3vw;
   z-index: 100;
@@ -209,22 +209,34 @@ footer{
   padding: 5vw;
   transition: ease-out 0.5s;
   position: relative;
-  top: -14vh;
-  left: 22vw;
+  top: -8vh;
+  left: 32vw;
   cursor: pointer;
 }
 
+.popup-heading{
+  top: -3vw;
+  font-family: 'panton-black-caps' , sans-serif;
+  font-size: 2vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.popup-content{
+  font-family: 'panton-black-caps' , sans-serif;
+  position: relative;
+}
 
 #popup{
+  visibility: hidden;
   position: fixed;
-  top:40vw;
-  left:50vw;
   transform:translate(-50%,-50%);
-  padding:90px 9vw;
-  box-shadow: 0 5px 3px rgba(0,0,0,.30);
+  top: 40vw;
+  left: 50vw;
+  padding:45px 9vw;
   background-color: #fff;
   color: black;
-  visibility: hidden;
   transition: 0.5s;
   z-index: 5;
 }
@@ -232,40 +244,11 @@ footer{
 #popup.active{
   top:23.5vw;
   visibility: visible;
-  transition: 0.5s;
-}
-
-.popup-heading{
-  font-family: 'panton-black-caps' , sans-serif;
-  font-size: 2vw;
-  font-weight: 800;
-  text-transform: uppercase;
-  position: relative;
-  top: -20vh;
-  left: -0.2vw;
-}
-
-#popup1{
-  visibility: hidden;
-  position: fixed;
-  transform:translate(-50%,-50%);
-  top: 40vw;
-  left: 50vw;
-  padding:90px 9vw;
-  background-color: #fff;
-  color: black;
-  transition: 0.5s;
-  z-index: 1000;
-}
-
-#popup1.active{
-  top:23.5vw;
-  visibility: visible;
   opacity: 1;
   transition: 0.5s;
 }
 
-.plastic-pollution#blur1.active{
+.plastic-pollution#blur.active{
   filter: blur(20px);
   pointer-events: none;
   user-select: none;
@@ -313,4 +296,3 @@ footer{
 .video-link{
   color: white;
 }
-
