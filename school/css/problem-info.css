@@ -50,18 +50,21 @@
   position: relative;
   background-color: #111222;
   height: 120vh;
+  z-index: 100;
 }
 
 #plastic-pollution{
   position: relative;
   background-color: #111222;
   height: 120vh;
+  z-index: 99;
 }
 
 #water-pollution{
   position: relative;
   background-color: #111222;
   height: 120vh;
+  z-index: 100;
 }
 
 .images{
