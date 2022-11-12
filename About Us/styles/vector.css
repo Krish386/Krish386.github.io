@@ -1,519 +1,155 @@
-svg {
-    width: 106%;
-    margin-left: -3%;
-    margin-top: -3%;
-    resize: both;
-    overflow-x: hidden;
-  }
 
-  .title {
-    background-image: url(../assets/gifs/vid.gif);
-    background-size: cover;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 6vw;
-    font-family: Roboto;
-    font-weight: 700;
-    position: absolute;
-    z-index: 1000;
-    margin-top: -40vw;
-    margin-left: 35vw;
-            animation: fadeInDown 1s;
-  }
-  
-  #bg3 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-  }
-  
-  #bg2 {
-            animation: fadeInUpDown 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.3s;
-  }
-  
-  #bg1 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.5s;
-  }
-  
-  #pic1-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic1 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic2 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic2-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic3 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic3-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic4 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.9s;
-  }
-  
-  #pic4-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.9s;
-  }
-  
-  #pic5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.9s;
-  }
-  
-  #pic5-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.9s;
-  }
-  
-  #pic6 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic6-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic7 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic7-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic8 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic8-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic9 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic9-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic10 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic10-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic11 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic11-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic12 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic12-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic13 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic13-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic14 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic14-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic15 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic15-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic16 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.6s;
-  }
-  
-  #pic16-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.6s;
-  }
-  
-  #pic17 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.5s;
-  }
-  
-  #pic17-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.5s;
-  }
-  
-  #pic18 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.4s;
-  }
-  
-  #pic18-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.4s;
-  }
-  
-  #pic19 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic19-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic20 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.6s;
-  }
-  
-  #pic20-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.6s;
-  }
-  
-  #pic21 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.5s;
-  }
-  
-  #pic21-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.5s;
-  }
-  
-  #pic22 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic22-5 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 0.8s;
-  }
-  
-  #pic23 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-            animation-delay: 1s;
-  }
-  
-  #pic24 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.6s;
-  }
-  
-  #pic25 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.6s;
-  }
-  
-  #pic26 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.6s;
-  }
-  
-  #pic27 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.8s;
-  }
-  
-  #pic28 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic29 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic30 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic31 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic32 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic33 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic34 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic35 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic36 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-  }
-  
-  #pic37 {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-          animation-delay: 0.2s;
-  }
-  
-  #pic38 {
-          animation: fadeInUpDownUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-  }
-  
-  #title {
-          animation: fadeInUp 1s;
-          visibility: hidden;
-          animation-fill-mode: forwards;
-  }
-  
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(30%);
-      visibility: visible;
+/*===================title===================*/
+.title {
+        background-image: url(../assets/gifs/vid.gif);
+        background-size: cover;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 6vw;
+        font-family: Roboto;
+        font-weight: 700;
+        position: absolute;
+        z-index: 1000;
+        margin-top: -40vw;
+        margin-left: 35vw;
+        animation: fadeInDown 1s;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      visibility: visible;
+    
+    /*================Vector==================*/
+    svg {
+        width: 106%;
+        margin-left: -3%;
+        margin-top: -3%;
+        resize: both;
+        overflow-x: hidden;
+      }
+    
+    #bg2 {
+        animation: fadeInUpDown 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
     }
-  }
-  
-  @keyframes fadeInUpDown {
-    0% {
-      opacity: 0;
-      transform: translateY(30%);
-      visibility: visible;
+    
+    #pic38 {
+        animation: fadeInUpDownUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
     }
-    100% {
-      opacity: 0.3;
-      transform: translateY(0%);
-      visibility: visible;
+    
+    #pic37 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
     }
-  }
-  
-  @keyframes fadeInUpDownUp {
-    0% {
-      opacity: 0;
-      transform: translateY(100%);
-      visibility: visible;
+    
+    #pic36,#pic35,#pic34,#pic33,#pic32,#pic31,#pic30,#pic29,#pic28 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      visibility: visible;
+    
+    #pic27,#pic19,#pic19-5,#pic15,#pic15-5,#pic14,#pic14-5,#pic13,#pic13-5,#pic12,#pic12-5 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.8s;
     }
-  }
-  
-  @keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(300%);
-      visibility: visible;
+    
+    #pic26,#pic25,#pic24,#pic22,#pic22-5,#pic20,#pic20-5,#pic16,#pic16-5 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.6s;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-      visibility: visible;
+    
+    #pic23,#pic11,#pic11-5,#pic10,#pic10-5,#pic9,#pic9-5,#pic8,#pic8-5,#pic7,#pic7-5,#pic6,#pic6-5,#pic3,#pic3-5,#pic2,#pic2-5,#pic1,#pic1-5 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
     }
-  }
+    
+    #pic37 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
+    }
+    
+    #pic21,#pic21-5,#pic17,#pic17-5,#bg1 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+    
+    #pic18,#pic18-5 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+    }
+    
+    #pic5,#pic5-5,#pic4,#pic4-5 {
+        animation: fadeInUp 1s;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+        animation-delay: 0.4s;
+    }
+    
+    
+    /*===============Animations===============*/
+    @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(30%);
+          visibility: visible;
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+          visibility: visible;
+        }
+      }
+      
+      @keyframes fadeInUpDown {
+        0% {
+          opacity: 0;
+          transform: translateY(30%);
+          visibility: visible;
+        }
+        100% {
+          opacity: 0.3;
+          transform: translateY(0%);
+          visibility: visible;
+        }
+      }
+      
+      @keyframes fadeInUpDownUp {
+        0% {
+          opacity: 0;
+          transform: translateY(100%);
+          visibility: visible;
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+          visibility: visible;
+        }
+      }
+      
+      @keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          transform: translateY(300%);
+          visibility: visible;
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+          visibility: visible;
+        }
+      }

@@ -1,0 +1,83 @@
+.body {
+  background-color: #130052;
+}
+
+.problem-container {
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.problem-container img {
+  transition: 0.5s all ease-in-out;
+  height: 100%;
+  min-width: 100%;
+}
+
+.problem-container:hover img {
+  transform: scale(1.15);
+  opacity: 0.5;
+}
+.solution-container {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50%;
+  cursor: pointer;
+}
+
+.solution-container img {
+  transition: 0.5s all ease-in-out;
+  height: 100%;
+  min-width: 100%;
+}
+
+.solution-container:hover img {
+  transform: scale(1.15);
+  opacity: 0.5;
+}
+
+.problem{
+  z-index: 10000;
+  position: absolute;
+  right: 10%;
+  top:3vh;
+  font-size: 8vw;
+  font-family: Roboto, Arial;
+  background-image: url("../images/vid2.gif");
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.solution{
+  z-index: 10000;
+  position: absolute;
+  right: 10%;
+  top:3vh;
+  font-size: 8vw;
+  font-family: Roboto, Arial;
+  background-image: url("../images/vid3.gif");
+  background-size: cover;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.home-button {
+  color: white;
+  left: 0.5vw;
+  top: -0.5vw;
+  position: absolute;
+  font-size: 1.2vw;
+  font-family: Roboto, Raleway, Arial;
+  animation: fadeInDown 1s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  animation-delay: 0.5s;
+}

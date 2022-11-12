@@ -1,0 +1,388 @@
+@font-face {
+  font-family: 'Cosi Azure';
+  src: url(../fonts/CosiAzure-Bold.ttf);
+}
+@font-face {
+  font-family: 'Avenir Bold';
+  src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+@font-face {
+  font-family: 'Voga';
+  src: url(../fonts/Voga-Medium.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html,
+body{
+  background-color: #FEDCC8;
+  scroll-behavior: smooth;
+  width:99%;
+}
+
+/*Custom scrollbar*/
+
+::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #470066;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #76006c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(165, 0, 149);
+}
+
+/*===========================Intro=======================*/
+
+.intro{
+  background-color: black;
+  background-size: cover;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text{
+  color:white;
+  font-family: "Heebo", sans-serif;
+  font-size: 2.5vw;
+}
+
+.hide{
+  overflow: hidden;
+}
+
+.hide span{
+  transform: translateY(100%);
+  display:inline-block;
+}
+
+.intro__quote{
+  position:relative;
+  top: 20%;
+  left: 60%;
+  margin-bottom: 100px;
+}
+
+.intro__quote__author{
+  margin-top:20px;
+}
+
+.slider{
+  background-color: #2d112b; /*pls change this idk wht color u used*/
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+/*============================ Loading Screen ==============================*/
+
+.loading-screen{
+  position:relative;
+  padding-left:0;
+  padding-right: 0;
+  padding-top: 0;
+  background-color:#4bedc2;
+  width:0;
+  height:100%;
+}
+
+.load-container{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100vh;
+  overflow:hidden;
+  z-index:100;
+  pointer-events:none;
+}
+
+
+
+/*Heading*/
+
+.title{
+  color: #970e36;
+  position: absolute;
+  display: flex;
+  top: 8vw;
+  left: 51vw;
+  font-size:5vw;
+  transform: translate(-50%);
+  font-family: 'Voga';
+  letter-spacing: 0.1vw; 
+}
+
+.quote{
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  top: 17vw;
+  left: 51vw;
+  transform:translate(-50%);
+  color:#2d112b;
+  font-size: 1vw;
+}
+
+/*=================================== logo ==========================*/
+
+.logo{
+  position:absolute;
+  top: 4%;
+  left:51%;
+  transform: translate(-50%);
+  height: 5vw;
+  width:5vw;
+}
+
+
+/*Parallax*/
+
+.parallax {
+  perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -100vw;
+}
+
+.layer1 {
+  margin-left: -5vw;
+
+}
+
+.layer2 {
+  margin-left: -5vw;
+
+}
+
+.layer3 {
+  margin-left: -5vw;
+}
+
+.layer4 {
+  margin-left: -5vw;
+
+}
+
+.layer5 {
+  margin-left: -5vw;
+
+}
+
+.layer6 {
+  margin-left: -5vw;
+
+}
+
+.layer7 {
+  margin-left: -5vw;
+
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    visibility: visible;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+  }
+}
+
+
+img{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left:21.5%;
+  width:100%;
+}
+
+.parallax__cover{
+  background: #2D112B;
+  position: absolute;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  padding-left: 60vw;
+  padding-right: 10vw;
+  text-align: center;
+  bottom:0;
+}
+  
+/*===========================================Body==========================================*/
+#line_1 {
+  left: 0vw;
+  font-size: 30px;
+  font-family: Roboto, Raleway, Arial;
+}
+
+#line_3{ 
+  margin-top: 2vw;
+  text-align: center;
+  font-family: 'Lobster';
+  letter-spacing: 0.2vw;
+  left: 0vw;
+  font-size: 30px;
+}
+
+.intro__quote {
+  padding: 0;
+  padding-bottom: 10vw;
+}
+
+.intro__quote span{
+  display:block;
+  font-weight:700;
+  position:relative;
+  top: 10%;
+  left: 50%;
+  transform:translate(-50%);
+  font-size: 30px;
+  color:#FEDCC8;
+  width: 98%;
+}
+
+
+.other{
+  position: relative;
+  top:10%;
+  display: flex;
+  align-items:center;
+  left:-10%;
+}
+
+.desc{
+  color: #fedcc8;
+  position: relative;
+  font-size: 25px;
+  font-family: 'Cosi Azure';
+  top: 70%;
+  left: 62%;
+}
+
+/*================================== Button ====================================*/
+
+.btn{
+  font-family: Roboto, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fedcc8;
+  border: 0.1vw solid #fedcc8;
+  padding: 1.5vw 3vw;
+  text-transform:uppercase;
+  letter-spacing: 0.2vw;
+  font-size: 20px;
+  transition: 0.3s;
+  background:#2D112B;
+  transition: ease-out 0.3s;
+  position: relative;
+}
+
+#about__us{
+  position: relative;
+  top: 5vw;
+  left: -50vw;
+}
+
+#our__school{
+  position: relative;
+  top: 5vw;
+  left: -28vw;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #2D112B;
+  box-shadow: inset 15vw 2vw 2vw 15vw #fff;
+  cursor: pointer;
+  transform: translateY(-20%);
+}
+
+.btn:hover::after{
+  transform: translateY(0%);
+}
+
+.copyright {
+  position: absolute;
+  margin-left: 73.5vw;
+  margin-top: 4vw;
+  opacity: 0;
+  animation: fadeInUp 1s;
+  animation-fill-mode: forwards;
+  font-family: Roboto, Raleway, Arial;
+  color: white;
+}
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid black;
+  position: absolute;
+  left: 95%;
+  top: 4%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+} 
+
+
